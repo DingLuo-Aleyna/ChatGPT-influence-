@@ -1,0 +1,414 @@
+
+<!DOCTYPE html>
+
+
+
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <title >The influence of student outcomes by ChatGPT</title>
+        <meta name="description" content="This is a meta html file">
+        <style type="text/css">
+
+
+            .imgBox{
+                width: 58%;
+                height: 58%;
+                margin: 0 auto;
+            }
+            .imgBox img{
+                width: 500px;
+                height: 300px;
+                margin: 0 auto;
+            }
+         
+
+            .img1{
+                display: block;
+            }
+
+            .img2{
+                display: none;
+            }
+
+            .img3{
+                display: none;
+            }
+
+            
+            /* 使用绝对布局 */
+            .textSytle{
+              
+                top: 60%;
+                width: 100%;
+                text-align: left;
+                font-size: 15px;
+                color: rgb(70, 43, 8);
+                font-weight: bold;
+                z-index: 9990;
+            }
+	
+			.outNode {
+				position: relative;
+				width: 1200px;
+				height: 500px;
+				margin: 0 auto;
+				background: rgba(255,255,255,0);
+				justify-content: left;
+				font-size: 20px;
+				font-weight: 500;
+			}
+
+			.content2 div{
+				display:none;
+				width:1100px;
+				height:610px;
+				line-height: 30px;
+				padding: 25px 0 50px 50px;
+				font-size: 20px;
+				font-weight: 600;
+				background-image: -webkit-linear-gradient(left, #381414, #b05c5c 25%, #c76767 50%, #944747 75%, #3c0e0e);
+				-webkit-text-fill-color: transparent;
+				-webkit-background-clip: text;
+				-webkit-background-size: 200% 100%;
+				-webkit-animation:  maskedAnimation 4s infinite linear;
+			}
+
+			@keyframes maskedAnimation {
+				0% {
+				background-position: 0 0;
+				}
+				100% {
+					background-position: -100% 0;
+				}
+			}
+
+			.content2 .show{
+				display: block;
+			}
+
+            h1,h2,h3,h4,h5,h6{
+                font-family :"verdana", Arial, sans-serif;
+                font-weight: 400;margin: 10px;
+                font-weight :bold;
+            }
+            .top{
+                top:0
+            }
+            
+            .black,.hover-black:hover{
+                color:#fff!important;
+                background-color:#000!important
+            }
+            .padding-large{
+                padding:12px 24px!important
+            }
+            .button{
+                border:none;
+                display:inline-block;
+                padding:8px 16px;
+                vertical-align:middle;
+                overflow:hidden;
+                text-decoration:none;
+                color:inherit;
+                background-color:inherit;
+                text-align:center;
+                cursor:pointer;
+                white-space:nowrap
+            }
+            .button:hover{
+                color:#000!important;
+                background-color:#ccc!important
+            }
+
+            p[align]{
+                color: #33475b;
+                padding: 8px;
+                margin: 25px;
+            }
+
+            h1{
+                color: white;
+                background-color: #000;
+                font-size: 30px;
+                border-radius: 10px;
+                text-indent: 1%;
+            }
+            h2{
+                color: white;
+                background-color: #33475b;
+                font-size: 25px;
+                border-radius: 10px;
+                text-indent: 1%;
+            }
+            h4{
+                padding: 8px;
+                margin: 25px;
+            }
+        
+            * {
+                box-sizing: border-box;
+            }
+       
+            header {
+                background-color: #000000;
+                padding: 5px;
+                text-align: center;
+                font-size: 40px;
+                color: white;
+            }
+            #nav{
+                line-height: 40px;
+                height: 100%;
+                width: 15%;
+                float: left;
+                padding: 5px;
+                border: 2px solid black;
+                border-radius: 12px;
+                padding: 5px;
+            }
+
+            article {
+                float: left;
+                padding: 20px;
+                width: 85%;
+                height: 100%; 
+            }
+            section::after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+  
+/* dividers for easy organization */
+
+/* dividers for easy organization */
+
+            h1 {
+                color: white;
+                background-color: #000000;
+                font-size: 30px;
+                border-radius: 10px;
+                text-indent: 1%;
+            }
+            h4 {
+                padding: 8px;
+                margin: 25px;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            .stand {
+                padding: 8px;
+                margin: 25px;
+                border-radius: 10px;
+           
+                background-color: #d4d4d4;
+            }
+            footer {
+                background-color: #777;
+                padding: 10px;
+                font-size: 13px;
+                text-align: center;
+                font-style: italic;
+                color: white;
+            }
+
+/* dividers for easy organization */
+
+            .black{
+                color:#fff!important;
+                background-color:#000!important
+            }
+            .padding-large{
+                padding:12px 24px!important
+    
+            }
+            .button{
+                border:none;
+                display:inline-block;
+                padding:8px 16px;
+                vertical-align:middle;
+                overflow: hidden;
+                text-decoration:none;
+                color:inherit;
+                background-color:inherit;
+                text-align:center;
+                cursor:pointer;
+                white-space:nowrap
+            }
+
+
+/* dividers for easy organization */
+
+
+        .image{
+            border-radius:30px;
+        }
+        .image1{
+            opacity: 0.1;
+        }
+        .image2{
+        opacity: 0.5;
+        }
+
+
+/* dividers for easy organization */
+
+
+
+        .size {
+        font-size: 17px;
+        }
+
+
+/* dividers for easy organization */
+
+
+        .top{
+            top:0
+        }
+        .black{
+            color:#fff!important;
+            background-color:#000!important
+        }
+        .padding-large{
+            padding:12px 24px!important
+        }
+        .button{
+            border:none;
+            display:inline-block;
+            padding:8px 16px;
+            vertical-align:middle;
+            overflow:hidden;
+            text-decoration:none;
+            color:inherit;
+            background-color:inherit;
+            text-align:center;
+            cursor:pointer;
+            white-space:nowrap
+        }
+        .button:hover{
+            color:#000!important;
+            background-color:#ccc!important
+        }
+
+
+   
+        </style>
+    </head>
+
+    <body>
+        <div class="top">
+            <div class="black">
+              <a href="#" class="button padding-large">Home</a>
+              <a href="#" class="button padding-large">Application - ChatGPT</a>
+              <a href="#" class="button padding-large">Application - Bayesian Network</a>
+              <a href="#" class="button padding-large">Questions and Misunderstandings</a>
+            </div>
+          </div>
+        <div class="data">
+            <div class="stars"></div>
+            <h3 class="titles"></h3>
+        </div>
+         <!-- To illustrate the usage of h1-->
+         <h1 style="text-align: center">The influence of student outcomes by ChatGPT</h1>
+        
+         <h2 style="text-align: left">1. A short video aboout ChatGPT</h2>
+        
+         
+        <p align="center">  
+            <iframe style="text-align: center" width="500px" height="300px" src="https://www.youtube.com/embed/o5MutYFWsM8" title="What is ChatGPT? OpenAI&#39;s Chat GPT Explained" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </p>
+
+        <h4 style="text-align: left;">In recent years, the emergence of artificial intelligence (AI) has revolutionized various industries, and education is no exception. One such AI-powered tool that has gained significant attention is ChatGPT. This advanced language model has the potential to transform the way students learn and interact with educational content. In this article, we will explore the influence of ChatGPT on students' learning outcomes and discuss its benefits and potential challenges.</h4>
+
+
+
+         <div class="img-group">
+            <div align="center" class="imgBox">
+                <img class="img-slide img1" src="assignment/img1.jpg" alt="1">
+                <img class="img-slide img2" src="assignment/img2.jpg" alt="2">  
+                <img class="img-slide img3" src="assignment/img3.jpg" alt="3">
+            </div>
+             
+                
+                
+                
+                
+                <h2 style="text-align: left">2. The advantage of ChatGPT</h2>   
+                <ul>
+                    <li><h3><mark>2.1 Information retrieval</mark> </h3></li> 
+                        <h4>students can be provided with quick access to information on various topics by Chatgpt. Chatgpt can generate relevant resources in a short time to increase students’ efficiency. And maybe these resources are beyond course materials which can broaden their knowledge base and facilitate self-directed learning.</h4>
+                    <li><h3><mark>2.2 Assistance in coding and computer science learning</mark></h3></li> 
+                        <h4>Just like the up-to-date model —GPT4, there are lots of advantages, such as self-debugging, solving math problems with code, and more knowledge in specific areas, where we find a possibility that it brings a benefit to students' learning outcomes (Zhou et al., 2023; Plevris et al.,2023). Especially, regarding self-debugging, there are more details that GPT-4 has stronger code generation and execution capabilities, and GPT-4 can adjust its problem-solving strategy based on feedback from code execution (Zhou et al., 2023).</h4>
+                    <li><h3><mark>2.3 Writing summaries of academic writings for batch reading</mark></h3></li> 
+                        <h4>The summarizing application came into existence with the launch of Advanced Data Analysis integration in ChatGPT, which allows users to upload and analyze PDF files and their content. This makes understanding academic research findings in batches possible.</h4>
+                    <li><h3><mark>2.4 Enhanced Engagement and Personalized Learning</mark></h3></li>
+                        <h4>ChatGPT offers students a unique opportunity to engage in interactive and personalized learning experiences. By simulating conversations with a virtual assistant, students can ask questions, seek clarification, and receive instant feedback on their queries. This personalized approach fosters active learning, as students can explore topics at their own pace and delve deeper into areas of interest. Consequently, this increased engagement can lead to improved learning outcomes.</h4>
+                    <li><h3><mark>2.5 Augmented Critical Thinking and Problem-Solving Skills </mark> </h3></li> 
+                        <h4>Engaging with ChatGPT can stimulate critical thinking and problem-solving skills in students. By encouraging them to articulate their questions and thoughts, ChatGPT prompts students to think deeply about the subject matter. This process of formulating queries and receiving responses helps students develop analytical skills, logical reasoning, and the ability to evaluate information critically. Consequently, students become active participants in their learning journey, leading to improved learning outcomes.</h4>
+                    <li><h3><mark>2.6 Instantaneous Feedback and Learning Support</mark> </h3></li> 
+                        <h4>ChatGPT's ability to provide instantaneous feedback can greatly benefit students' learning outcomes. Whether it's solving math problems, proofreading essays, or understanding complex concepts, students can receive immediate guidance and corrections. This real-time support helps students identify and rectify their mistakes promptly, reinforcing their understanding and boosting their confidence. Additionally, ChatGPT's vast knowledge base allows it to provide comprehensive explanations and resources, further enhancing students' learning experience.</h4>
+                
+                </ul>
+            </h3>
+             
+           
+            <h3 style="text-align: left"> More recently, the GPT-4 report was released.  
+                
+             <a href="https://cdn.openai.com/papers/gpt-4.pdf">You can click here.</a>
+          
+            </h3>
+            
+            <h2 style="text-align: left">3. Potential Challenges and Ethical Considerations</h2>
+            <h4>While ChatGPT offers numerous benefits, it is essential to acknowledge potential challenges and ethical considerations. As an AI language model, ChatGPT's responses are generated based on patterns and data it has been trained on. Therefore, there is a possibility of biased or inaccurate information being provided. Educators and developers must ensure that the content and responses generated by ChatGPT are reliable, unbiased, and aligned with educational standards. Additionally, it is crucial to strike a balance between using AI tools and maintaining human interaction and guidance in the learning process.</h4>
+            <div align="center">
+                <img style="text-align: center;"  width=50% height="50%" src="img15.jpg">
+            </div>
+
+            <h2 style="text-align: left">4. Conclusion</h2>
+            <h4>ChatGPT has the potential to revolutionize education by enhancing engagement, providing personalized learning experiences, and fostering critical thinking skills. Its accessibility and instantaneous feedback make it a valuable tool for students seeking continuous learning support. However, it is crucial to address potential challenges and ensure that the content generated by ChatGPT is accurate, reliable, and aligned with educational standards. By leveraging the benefits of ChatGPT while maintaining a human-centric approach, we can harness the power of AI to improve students' learning outcomes and create a more inclusive and effective educational environment.</h4>
+
+
+            <footer>
+                <br>
+                <p>
+                  © COMM2036 Group Project<br>
+                  Topic : Artificial Intelligence for Social Good
+                </p><br>
+              </footer>
+            
+            
+        <style>
+            footer {
+                background-color: #777;
+                padding: 10px;
+                font-size: 13px;
+                text-align: center;
+                font-style: italic;
+                color: white;
+            }
+
+        </style>
+            
+
+    </body>    
+        
+        <script type="text/javascript">
+            var index = 0;
+            function changeImg() {
+                index++;
+                var a = document.getElementsByClassName("img-slide");
+                if(index >= a.length) index=0;
+                for(var i = 0; i < a.length; i++){
+                    a[i].style.display = 'none';
+                }
+                a[index].style.display = 'block';
+            }
+        
+            //设置定时器，每隔两秒切换一张图片
+            setInterval(changeImg, 2000);
+        </script>  
+</html> 
+    
+
